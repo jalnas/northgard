@@ -35,6 +35,6 @@ export const JobProduction: JobMap<ResourceMap<number>> = {
 	Woodcutter: { Wood: 4 },
 	Merchant: { Kröwns: 2 },
 	Sailor: { Kröwns: 2, Lore: 0.8 },
-	Scout: {},
+	Scout: { Land: 3 }, // fixme: Land discovery rate changes depending on the distance to the town hall tile
 	Mender: { Lore: 1 },
 }

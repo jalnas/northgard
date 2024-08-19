@@ -12,3 +12,4 @@ export type ResourceType =
 	| "Commercial Influence"
 	| "Ancestral Equipment"
 	| "Wyrd"
+	| "Land"
