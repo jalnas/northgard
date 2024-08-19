@@ -1,0 +1,16 @@
+{
+	"compilerOptions": {
+		"module": "ES2022",
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"target": "es2022",
+		"moduleResolution": "Node",
+		"sourceMap": true,
+		"outDir": "build",
+		"lib": ["es2022"],
+		"paths": { "~/*": ["./src/*"] },
+		"typeRoots": ["./node_modules/@types"]
+	},
+	"include": ["./src/**/*"],
+	"exclude": []
+}

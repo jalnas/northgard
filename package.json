@@ -1,0 +1,14 @@
+{
+	"name": "northgard-sim",
+	"version": "0.0.1",
+	"author": "Patrik Jalnäs <patrik.jalnas@gmail.com>",
+	"description": "",
+	"scripts": {
+		"build": "tsc"
+	},
+	"type": "module",
+	"dependencies": {
+		"typescript": "5.3.3",
+		"@types/node": "20.14.2"
+	}
+}
