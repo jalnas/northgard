@@ -4,6 +4,7 @@
 	"author": "Patrik Jalnäs <patrik.jalnas@gmail.com>",
 	"description": "",
 	"scripts": {
+		"start": "node build/main.js",
 		"build": "tsc"
 	},
 	"type": "module",
