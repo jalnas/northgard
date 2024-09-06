@@ -108,6 +108,15 @@ export const JobsPerBuilding: BuildingMap<JobMap<number>> = {
 	"Upgraded Forge": { Smith: 3 },
 }
 
+export const BuildingCosts: BuildingMap<ResourceMap<number>> = {
+	"House": { Wood: 50, Kröwns: 10 },
+	"Scout Camp": { Wood: 50 },
+	"Woodcutter's Lodge": { Wood: 50 },
+	"Upgraded Woodcutter's Lodge": { Wood: 50, Kröwns: 50, Stone: 10 },
+	"Upgraded House": { Wood: 50, Kröwns: 50, Stone: 5 },
+	"Upgraded Scout Camp": { Wood: 50, Kröwns: 50, Stone: 5 },
+}
+
 export const BuildingProductions: BuildingMap<ResourceMap<number>> = {
 	"Town Hall": { Kröwns: 3 },
 }
