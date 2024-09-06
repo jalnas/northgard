@@ -1,3 +1,7 @@
+import { ClanType } from "./Clans.js"
+import { LoreDescriptions } from "./data/LoreDescriptions.js"
+import { State } from "./State.js"
+
 export type LoreMap<T> = PropMap<LoreType, T>
 export type LoreType =
 	| "Sharp Axes"

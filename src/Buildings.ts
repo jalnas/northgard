@@ -1,5 +1,5 @@
-import { JobMap } from "./Jobs"
-import { ResourceMap } from "./Resources"
+import { JobMap } from "./Jobs.js"
+import { ResourceMap } from "./Resources.js"
 
 export type BuildingMap<T> = PropMap<BuildingType, T>
 

@@ -1,4 +1,4 @@
-import { ResourceMap } from "./Resources"
+import { ResourceMap } from "./Resources.js"
 
 export type BlessingMap<T> = PropMap<BlessingType, T>
 export type BlessingType = "Freya's Blessing" | "Baldr's Blessing" | "Jord's Blessing"

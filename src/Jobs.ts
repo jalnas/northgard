@@ -1,4 +1,4 @@
-import { ResourceMap } from "./Resources"
+import { ResourceMap } from "./Resources.js"
 
 export type JobType =
 	| "Villager"
